@@ -1,3 +1,116 @@
-h1 {
-  color: salmon;
+body{
+  /*text-align: center;*/
+  background-color: #edefec;
 }
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  /*display: block;*/
+  margin: 0px 400px 0px 400px;
+}
+
+
+ #image {
+    display: flex;
+    height: 210px;
+    width: 200px;
+    margin: 10px 15px 20px 0px;
+    opacity: 0.9;
+}
+
+/*.image-wrapper {
+    position: flex;
+    width: 250px;
+}
+.image-wrapper p {
+    position: flex;
+    left: 0;
+    top: 0;
+    padding: 0px;
+    border: 0px;
+    color: white;
+    margin: 0px;
+}*/
+
+#text {
+  position: flex;
+  /*top: 50%;
+  left: 50%;
+  transform: translate (-50%, -50%);*/
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: arial;
+  /*margin-bottom: -50px;*/
+  /*margin-top: -150px;*/
+}
+/* Crap that didn't necessarily work*/
+/*#container{ width:50%; margin:0 auto; text-align:center}
+.container span{ width:30%; margin:0 1%;  }*/
+
+/*.column-left{
+   float: left;
+   width: 33%;
+ }
+
+.column-right{
+  float: right;
+  width: 33%;
+}
+
+.column-center{
+   display: inline-block;
+   width: 33%;
+ }
+
+ .second-column-left{
+    float: left;
+    width: 33%;
+  }
+
+ .second-column-right{
+  float: right;
+   width: 33%;
+
+ }
+
+ .second-column-center{
+    display: inline-block;
+    width: 33%;
+
+  }*/
+
+ h1{
+   text-align: center;
+   color: #5d616e;
+   font-family: /*circular*/ arial;
+   font-size: 20px;
+   margin-top: 25px;
+  /* font-family: circular*/
+ }
+
+ p{
+   text-align: center;
+   color: #5d616e;
+   margin-top: -10px;
+   font-size: 11px;
+   font-family: arial;
+ }
+
+ .wrapper{
+   text-align: center;
+ }
+
+ .button{
+   position: relative;
+   /*margin-left: 43%;*/
+   /*top: 50%;*/
+   color: #5d616e;
+   background-color: white;
+   text-align: center;
+   display: inline-block;
+   padding: 5px 50px 5px 50px;
+   margin-top: 10px;
+   font-family: arial;
+ }
