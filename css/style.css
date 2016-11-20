@@ -1,3 +1,59 @@
-h1 {
-  color: salmon;
+@import url(http://fonts.googleapis.com/css?family=Cabin:400,500);
+
+h2, h3 {
+  text-align: center;
+}
+.photoStrip {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.secBlock {
+  text-align: center;
+}
+
+.city {
+  display: inline-block;
+}
+img {
+  height: 255px;
+  width: 255px;
+  z-index: -1;
+}
+button {
+  width: 200px;
+  border: 1 solid black;
+  background-color: rgba(236, 239, 241, 1);
+
+}
+body {
+  background-color: rgba(207, 216, 220, 1);
+  font-family: 'Cabin', sans-serif;
+
+}
+
+.module {
+  /*background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/skyscrapers.jpg);*/
+  background-size: cover;
+  width: 260px;
+  height: 260px;
+  margin: 10px 0 0 10px;
+  position: relative;
+  display: inline-block;
+}
+
+.mid h5 {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 200;
+  color: white;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  font-size: 1.5rem;
+  transform: translate(0%, 500%);
 }
