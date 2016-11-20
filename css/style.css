@@ -3,68 +3,80 @@ body {
   color: #5D616E;
   font-family: Circular, sans-serif;
   letter-spacing: 1px;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 h1 {
-  margin: 20px 0 0 0;
   color: #5D616E;
-  font-size: 26px;
+  font-size: 24px;
+  margin: 0;
 }
 
 section {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-
+  margin: 20px auto 0 auto;
 }
 
-.images {
+div.images {
+  width: 100%;
+  overflow: auto;
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  align-items: center;
-
-  margin: 25px;
 }
 
 .images div {
+  float: left;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 220px;
+  height: 220px;
+  margin: 10px;
   position: relative;
-  margin: 15px;
 }
 
 h2 {
   color: white;
+  font-size: 18px;
   position: absolute;
   margin: 0;
 }
 
-img {
+a {
+  text-decoration: none;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 275px;
-  height: 275px;
-}
-
-span {
-  width: 275px;
-  height: 25px;
-  background-color: white;
-  border: 2px rgba(0, 0, 0, .2) solid;
-  border-radius: 3px;
-}
-
-a{
-  text-decoration: none;
   color: #5D616E;
-  font-size: 14px;
+  font-size: 12px;
+  width: 220px;
+  height: 35px;
+  background-color: white;
+  box-shadow: 0px 0px 2px #5D616E inset;
+  border-radius: 3px;
+  margin: 10px auto;
 }
 
-p{
-  margin: 5px;
+
+p {
+  margin: 5px 0 10px 0;
   font-size: 12px;
+}
+
+@media screen and (max-width: 700px){
+
+  /*Changes the div.images display back to block,
+    that way the images will move when looked at
+    on a mobile device*/
+  div.images {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+  }
+
 }
