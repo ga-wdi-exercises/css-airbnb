@@ -7,16 +7,17 @@ body{
   display: flex;
   justify-content: space-between;
   /*display: block;*/
-  margin: 0px 400px 0px 400px;
+  margin: 0 400px 0 400px;
 }
 
 
- #image {
-    display: flex;
-    height: 210px;
-    width: 200px;
-    margin: 10px 15px 20px 0px;
-    opacity: 0.9;
+ .image {
+  /*z-index: -1;*/
+  display: flex;
+  height: 210px;
+  width: 200px;
+  margin: 10px 15px 20px 0;
+  opacity: 0.9;
 }
 
 /*.image-wrapper {
@@ -33,7 +34,8 @@ body{
     margin: 0px;
 }*/
 
-#text {
+.text {
+  /*z-index: -1;*/
   position: flex;
   /*top: 50%;
   left: 50%;
@@ -87,7 +89,7 @@ body{
    font-family: /*circular*/ arial;
    font-size: 20px;
    margin-top: 25px;
-  /* font-family: circular*/
+  /* font-family: circular not available*/
  }
 
  p{
