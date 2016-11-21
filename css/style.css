@@ -1,3 +1,38 @@
 h1 {
-  color: salmon;
+  color: gray;
+  margin-bottom: 0
+}
+h2{
+  margin-top: 5px;
+}
+body{
+  background-color: #efefef;
+  text-align: center;
+}
+.container{
+  color: gray;
+  width: 80%;
+
+
+  margin: 0 auto;
+}
+
+.main_text{
+  display: flex;
+  flex-direction: column;
+}
+
+.showcase{
+  display: flex;
+  flex-direction: row;
+  align-items: center;;
+}
+img{
+  max-width: 31%;
+  margin: 15px;
+
+}
+.button1{
+  padding: 10px 100px 10px 100px;
+
 }
