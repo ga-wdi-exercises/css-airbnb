@@ -1,8 +1,9 @@
-@import url(http://fonts.googleapis.com/css?family=Cabin:400,500);
+/*@import url(http://fonts.googleapis.com/css?family=Cabin:400,500);*/
 
 body {
   background-color: rgba(237, 239, 236, 1);
-  font-family: 'Cabin', sans-serif;
+  /*font-family: 'Cabin', sans-serif;*/
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   color: rgba(85, 89, 92, 1);
 }
 
@@ -18,7 +19,7 @@ h3 {
 
 h5 {
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 600;
   color: rgba(255, 255, 255, 1);
   margin: 0 auto;
   transform: translate(0%, 525%);
