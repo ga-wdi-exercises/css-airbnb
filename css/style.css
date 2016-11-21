@@ -21,15 +21,19 @@ h5{
   justify-content: center;
   align-items: center;
 }
+img{
+  width: 200px;
+  height: 200px;
+}
 .first3pics{
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .location1{
-  height: 180px;
-  width: 180px;
+  display: inline-block;
 }
+
 .middleStuff{
   display: flex;
   justify-content: center;
@@ -44,4 +48,7 @@ h5{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+#newyork, #sonoma{
+  padding: 0 15px 0 15px;
 }
