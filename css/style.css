@@ -1,3 +1,47 @@
-h1 {
-  color: salmon;
+body{
+  background-color: #edefec;
+  font-family: arial;
+}
+h3{
+  color: #5d616e;
+  font-weight: 700;
+  text-align: center;
+  color: black;
+  font-family: arial;
+}
+h5{
+  color: #5d616e;
+  font-weight: 700;
+  text-align: center;
+  color: black;
+  font-family: arial;
+}
+.topstuff{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first3pics{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.location1{
+  height: 180px;
+  width: 180px;
+}
+.middleStuff{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.last3pics{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.afterlast3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
