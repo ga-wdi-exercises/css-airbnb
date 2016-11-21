@@ -1,3 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin');
 h1 {
-  color: salmon;
+  font-family: "cabin"
+  color: black;
+  text-align: center;
 }
+h2 {
+  font-family: "cabin";
+  color: white;
+  transform: translate(0%,480%);
+}
+h3 {
+  font-family: "cabin"
+  text-align: center;
+}
+.image {
+  display: inline-block;;
+  width: 100%;
+  text-align: center;
+}
+.block {
+text-align: center;
+
+
+}
+.places {
+  width: 205;
+  margin: 10px;
+  display: inline-block;
+}
+img {
+  width: 200px;
+  height: 200px;
+
+}
+
+body {
+background-color: rgba(237,239,236,1);
+align-content: center;
+color:rgba(85,89,92,1);
+
+}
+button {
+  width: 200px;
+  height: 40;
+  font-family: "cabin"
+  font-size: 2.7em;
