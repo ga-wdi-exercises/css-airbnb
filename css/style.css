@@ -33,11 +33,21 @@ img{
 .location1{
   display: inline-block;
 }
-
+h4{
+  transform: translate(20%, 760%);
+  color: white;
+  font: Arial;
+  font-weight: 200;
+}
+h2{
+  text-align: center;
+  justify-content: center;
+}
 .middleStuff{
-  display: flex;
+  display: inline;
   justify-content: center;
   align-items: center;
+  height: 120px;
 }
 .last3pics{
   display: flex;
