@@ -1,3 +1,7 @@
+.button:hover {
+  background-color: red;
+}
+
 body{
   /*text-align: center;*/
   background-color: #edefec;
