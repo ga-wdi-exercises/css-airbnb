@@ -1,3 +1,68 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(237,239,235);
+}
+h1, h2 {
+  color: rgb(89,91,94);
+}
 h1 {
-  color: salmon;
+  font-size: 25px;
+  margin: 20px 10px -5px 10px;
+  font-weight: 600;
+}
+h2 {
+  font-size: 15px;
+  font-weight: 100;
+}
+div {
+  height: 230px;
+  width: 200px;
+  margin: 20px;
+  text-align: center;
+}
+div h1 {
+  color: white;
+  padding: 80px 0 0 5px;
+}
+.san {
+  background: url("../img/san-francisco.jpg");
+  background-size: cover;
+  background-position: center bottom;
+}
+.york {
+  background: url("../img/new-york.jpg");
+  background-size: cover;
+  background-position: center bottom;
+}
+.london {
+  background: url("../img/london.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.napa {
+  background: url("../img/napa.jpg");
+  background-size: cover;
+}
+.sonoma {
+  background: url("../img/sonoma.jpg");
+  background-size: cover;
+}
+.francisco {
+  background: url("../img/san-francisco-2.jpg");
+  background-size: cover;
+  background-position: center bottom;
+}
+section {
+  display: flex;
+  align-items: center;
+}
+button {
+  border-radius: 0;
+  padding: 10px;
+  width: 200px;
+  margin: 30px;
+  background: white;
+  border: 1px solid #aaaaaa;
 }
