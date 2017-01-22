@@ -1,3 +1,103 @@
-h1 {
-  color: salmon;
+body {
+  background-color: rgb(234, 237, 233);
+  font-family: Helvetica, sans-serif;
+}
+
+
+article {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+  width: 80%;
+  margin: 20px auto;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  color: rgb(90, 92, 95);
+}
+
+header h3 {
+  font-size: 12px;
+  margin-top: -10px;
+}
+
+footer {
+  margin: auto;
+
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  width: 220px;
+  height: 30px;
+  display: flex;
+  border: 2px solid rgb(180, 180, 180);
+  color: rgb(80, 80, 80);
+}
+
+.button a {
+  margin: auto;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+/*****************
+**Location cards**
+*****************/
+
+/*Section is the parent element for the location cards*/
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px;
+}
+
+.location-card {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  color: white;
+  margin: 20px;
+  flex-grow: 1;
+}
+
+.location-name {
+  margin: auto;
+}
+
+.sf1 {
+  background-image: url("/img/san-francisco.jpg");
+  background-size: cover;
+}
+
+.ny {
+  background-image: url("/img/new-york.jpg");
+  background-size: cover;
+}
+
+.london {
+  background-image: url("/img/london.jpg");
+  background-size: cover;
+}
+
+.napa {
+  background-image: url("/img/napa.jpg");
+  background-size: cover;
+}
+
+.sonoma {
+  background-image: url("/img/sonoma.jpg");
+  background-size: cover;
+}
+
+.sf2 {
+  background-image: url("/img/san-francisco-2.jpg");
+  background-size: cover;
 }
