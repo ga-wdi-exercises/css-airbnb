@@ -1,3 +1,17 @@
-h1 {
-  color: salmon;
+* {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+body {
+  background: #EDEFEC;
+}
+main {
+  height: 100vh;
+  width: 960px;
+}
+#sanfran {
+  background-image: url("../img/san-francisco.jpg")
+}
+.locations {
+  height: 300px;
+  width: 300px;
 }
