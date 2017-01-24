@@ -20,7 +20,7 @@ body{
   background-color: rgb(237,	239,	236);
   margin-bottom: 20px;
 }
-div{
+.gallary{
   height: 215px;
   width: 195px;
   text-align: center;
@@ -36,27 +36,27 @@ div{
   font-family: 'Lato', sans-serif;
   font-size: 20px;
 }
-section{
+.frame{
   display: flex;
   justify-content: center;
   padding: 10px 10px 20px;
 }
-.san_francisco_1{
+#san_francisco_1{
   background-image: url(../img/san-francisco.jpg);
 }
-.new_york{
+#new_york{
   background-image: url(../img/new-york.jpg);
 }
-.london{
+#london{
   background-image: url(../img/london.jpg);
 }
-.napa{
+#napa{
   background-image: url(../img/napa.jpg);
 }
-.sonoma{
+#sonoma{
   background-image: url(../img/sonoma.jpg);
 }
-.san_francisco_2{
+#san_francisco_2{
   background-image: url(../img/san-francisco-2.jpg);
 }
 button{
