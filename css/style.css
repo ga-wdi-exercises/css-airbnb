@@ -1,13 +1,66 @@
 body {
-  height: 100vh;
-  width: 800px;
+  background: #EDEFEC;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.container {
+  width: 1000px;
+  margin: auto;
 }
 .san-fran-1 {
   background: url("../img/san-francisco.jpg");
+  background-size: cover;
+  width: 300px;
+  /*padding: 15px;*/
+}
+.new-york {
+  background: url("../img/new-york.jpg");
+  background-size: cover;
+  width: 300px;
+  /*padding: 15px;*/
+}
+.london {
+  background: url("../img/london.jpg");
+  background-size: cover;
+  width: 300px;
+  /*padding: 15px;*/
+}
+.napa {
+  background: url("../img/napa.jpg");
+  background-size: cover;
+  width: 300px;
+}
+.sonoma {
+  background: url("../img/sonoma.jpg");
+  background-size: cover;
+  width: 300px;
+}
+.san-fran-2 {
+  background: url("../img/san-francisco-2.jpg");
+  background-size: cover;
+  width: 300px;
 }
 .location-images {
   display: flex;
-  height: 300px;
-  width: 300px;
+  background-size: cover;
   justify-content: space-around;
+  /*background-size: cover;*/
+  /*background-color: #E9EBE7;*/
+  /*width: 300px;*/
+  height: 300px;
+}
+.location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.location-title {
+  color: white;
+}
+.locations button {
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  padding: 15px 80px;
+  margin: 20px;
+  font-size: 1em;
 }
