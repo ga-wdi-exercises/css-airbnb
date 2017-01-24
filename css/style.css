@@ -10,7 +10,7 @@ body {
   min-height: 100%;
   margin: 0 auto;
   display: flex;
-  flex-direction: column;
+  flex-direction: column; //only goes in container not in the other items
   align-items: center;
 
 }
@@ -35,8 +35,8 @@ div {
   background: url("../img/san-francisco.jpg");
   background-size: cover;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: center;
   width: 210px;
   height: 230px;
 
@@ -46,7 +46,8 @@ div {
   background: url("../img/new-york.jpg");
   background-size: cover;
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 210px;
   height: 230px;
 }
@@ -55,8 +56,8 @@ div {
   background: url("../img/london.jpg");
   background-size: cover;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: center;
   width: 210px;
   height: 230px;
 
@@ -66,8 +67,8 @@ div {
   background: url("../img/napa.jpg");
   background-size: cover;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: center;
   width: 210px;
   height: 230px;
 }
@@ -76,8 +77,8 @@ div {
   background: url("../img/sonoma.jpg");
   background-size: cover;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: center;
   width: 210px;
   height: 230px;
 
@@ -87,10 +88,15 @@ div {
   background: url("../img/san-francisco-2.jpg");
   background-size: cover;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: center;
   width: 210px;
   height: 230px;
+}
+
+span {
+  display: table;
+  position: relative;
 }
 
 h1 {
@@ -111,14 +117,20 @@ h1, h2, button {
 .visit {
   font-weight: bold;
   color: #FFF;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
+/*.container {
+
+}*/
 
 button {
   background-color: #FFF;
   color: #666B6D;
   padding: 3px 40px;
-
+  display: table;
+  position: relative;
+  margin-top: 400px;
 
 }
