@@ -1,3 +1,82 @@
-h1 {
-  color: salmon;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #EDEFEC;
+  color: #55595B;
+  font-family: 'Questrial', sans-serif;
+}
+h2 {
+  margin-bottom: 10px;
+}
+h3 {
+  color: #FFF;
+}
+
+p {
+  font-size: 12px;
+  margin-bottom: 30px;
+}
+
+section {
+  margin: 30px auto;
+  max-width: 750px;
+  text-align: center;
+}
+.gallery {
+  display: flex;
+  justify-content: center;;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+.gallery div {
+  width: 225px;
+  height: 250px;
+  margin: 0 10px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background: #FFF;
+  font-family: 'Questrial', sans-serif;
+  font-weight: bold;
+  padding: 5px 0;
+  width: 225px;
+  border: 1px solid #C7C7C7;
+  border-radius: 1px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #EDEFEC;
+}
+
+/* Locations */
+
+.san-fran-1 {
+  background: url("../img/san-francisco.jpg");
+}
+.newyork {
+  background: url("../img/new-york.jpg");
+}
+
+.london {
+  background: url("../img/london.jpg");
+}
+
+.napa {
+  background: url("../img/napa.jpg");
+}
+
+.sonoma {
+  background: url("../img/sonoma.jpg");
+}
+
+.san-fran-2 {
+  background: url("../img/san-francisco-2.jpg");
 }
