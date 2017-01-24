@@ -17,9 +17,82 @@ body {
   align-items: center;
 }
 
-img {
+.images {
+  color: white;
+  font-size: 1.75em;
+  font-weight: bold;
+}
+
+.SF1 {
+  background-image:url(../img/san-francisco.jpg);
+  background-size: cover;
   width: 250px;
   height: 250px;
+  float: left;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 250px;
+  margin: 10px;
+}
+
+.NY {
+  background-image:url(../img/new-york.jpg);
+  background-size: cover;
+  width: 250px;
+  height: 250px;
+  float: left;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 250px;
+  margin: 10px;
+}
+
+.London {
+  background-image:url(../img/london.jpg);
+  background-size: cover;
+  width: 250px;
+  height: 250px;
+  float: left;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 250px;
+  margin: 10px;
+}
+
+.Napa {
+  background-image:url(../img/napa.jpg);
+  background-size: cover;
+  width: 250px;
+  height: 250px;
+  float: left;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 250px;
+  margin: 10px;
+}
+
+.Sonoma {
+  background-image:url(../img/sonoma.jpg);
+  background-size: cover;
+  width: 250px;
+  height: 250px;
+  float: left;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 250px;
+  margin: 10px;
+}
+
+.SF2 {
+  background-image:url(../img/san-francisco-2.jpg);
+  background-size: cover;
+  width: 250px;
+  height: 250px;
+  float: left;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 250px;
+  margin: 10px;
 }
 
 a {
