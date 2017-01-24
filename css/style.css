@@ -6,66 +6,98 @@ h1, p {
   line-height: .5;
 }
 
-h2{
-  position: absolute;
-  top: 200
+.cities{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: white;
-  font-style: bold;
-}
-
-p{
-  font-size: 12px;
-}
-
-.cities1{
-  display: flex;
-  justify-content: center;
-}
-
-.cities2{
-  display: flex;
-  justify-content: center;
+  font-weight: bold;
+  font-family:  sans-serif;
 }
 
 .SanFran{
-  content: url(../img/san-francisco.jpg);
+  background-image:url(../img/san-francisco.jpg);
+  background-size: cover;
   height: 200px;
   width: 175px;
-  padding: 1%;
+  float: left;
+  text-align: center;
+  vertical-align: center;
+  line-height: 250px;
+  margin: 10px;
 }
 
 .NewYork{
-  content: url(../img/new-york.jpg);
+  background-image:url(../img/new-york.jpg);
+  background-size: cover;
   height: 200px;
   width: 175px;
-  padding: 1%;
+  float: left;
+  text-align: center;
+  vertical-align: center;
+  line-height: 250px;
+  margin: 10px;
 }
 
 .London{
-  content: url(../img/london.jpg);
-  height: 168px;
-  width: 216px;
-  padding: 1%;
+  background-image:url(../img/london.jpg);
+  background-size: cover;
+  height: 200px;
+  width: 175px;
+  float: left;
+  text-align: center;
+  vertical-align: center;
+  line-height: 250px;
+  margin: 10px;
 }
 
 .Napa{
-  content: url(../img/napa.jpg);
+  background-image:url(../img/napa.jpg);
+  background-size: cover;
   height: 200px;
   width: 175px;
-  padding: 1%;
+  float: left;
+  text-align: center;
+  vertical-align: center;
+  line-height: 250px;
+  margin: 10px;
 }
 
 .Sonoma{
-  content: url(../img/sonoma.jpg);
+  background-image:url(../img/sonoma.jpg);
+  background-size: cover;
   height: 200px;
   width: 175px;
-  padding: 1%;
+  float: left;
+  text-align: center;
+  vertical-align: center;
+  line-height: 250px;
+  margin: 10px;
 
 }
 
 .SanFran2{
-  content: url(../img/san-francisco-2.jpg);
+  background-image:url(../img/san-francisco-2.jpg);
+  background-size: cover;
   height: 200px;
   width: 175px;
-  padding: 1%;
+  float: left;
+  text-align: center;
+  vertical-align: center;
+  line-height: 250px;
+  margin: 10px;
+
+}
+
+button{
+  border: 1px solid rgb(196, 196, 196);
+  background-color: rgb(255, 255, 255);
+  text-decoration: none;
+  display: flex;
+  margin: 0 auto;
+  border-radius: 0;
+  width: 210px;
+  height: 30px;
+  align-content: center;
+  font-family: sans-serif;
 }
