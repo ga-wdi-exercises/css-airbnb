@@ -3,6 +3,14 @@ body {
   color: rgb(88,89,93);
   font-family:sans-serif;
 }
+h1 {
+  margin-bottom: 5px;
+}
+p {
+  margin-top: 5px;
+  margin-bottom: 40px;
+  font-size: 14px;
+}
 section {
   text-align: center;
   max-width: 60%;
@@ -12,6 +20,7 @@ section > ul {
   color: white;
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding-left: 0;
 }
