@@ -1,3 +1,60 @@
-h1 {
-  color: salmon;
+header {
+  text-align: center;
+}
+section{
+  text-align: center;
+}
+#section1 {
+  min-height: 300px;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: silver;
+}
+.button{
+align-content: center;
+}
+
+#section2 {
+  min-height: 300px;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: grey;
+}
+.sf{
+  height: 100px;
+  width:100px;
+  background: red;
+}
+.ny{
+  height: 100px;
+  width:100px;
+  background: red;
+}
+.ln{
+  height: 100px;
+  width:100px;
+  background: red;
+}
+.napa{
+  height: 100px;
+  width:100px;
+  background: red;
+}
+
+.sonoma{
+  height: 100px;
+  width:100px;
+  background: red;
+}
+
+.sf2{
+  height: 100px;
+  width:100px;
+  background: red;
 }
