@@ -6,17 +6,116 @@ body{
 .header{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
   height: 100px;
 }
 .header h1 {
   color: rgb(134,136,137);
   font-family: 'Open Sans', sans-serif;
-  margin: 10 auto 0 auto;
+  margin: 0;
 }
 .header h5{
   color: rgb(134,136,137);
   font-family: 'Open Sans', sans-serif;
-  margin: 10 auto 0 auto;
+  margin: 5px 0;
 }
+
+/* Picture Section One */
+.row2{
+  display: flex;
+  justify-content: center;
+}
+.san1{
+  height: 400px;
+  width: 400px;
+  background-image: url('../img/san-francisco.jpg');
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ny{
+  height: 400px;
+  width: 400px;
+  background-image: url('../img/new-york.jpg');
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 60px 0 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.london{
+  height: 400px;
+  width: 400px;
+  background-image: url('../img/london.jpg');
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/*Button*/
+
+
+/*Second Header*/
+.midheader{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100px;
+}
+.midheader h1{
+  color: rgb(134,136,137);
+  font-family: 'Open Sans', sans-serif;
+  margin: 20px 0 0 0;
+}
+.midheader h5{
+  color: rgb(134,136,137);
+  font-family: 'Open Sans', sans-serif;
+  margin: 5px 0 10px 0;
+}
+
+/* Row 4*/
+.row4{
+  display: flex;
+  justify-content: center;
+}
+.napa{
+  height: 400px;
+  width: 400px;
+  background-image: url('../img/napa.jpg');
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.son{
+  height: 400px;
+  width: 400px;
+  background-image: url('../img/sonoma.jpg');
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 60px 0 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.san2{
+  height: 400px;
+  width: 400px;
+  background-image: url('../img/san-francisco-2.jpg');
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Button 2*/
