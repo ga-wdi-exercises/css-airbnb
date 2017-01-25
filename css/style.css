@@ -60,8 +60,18 @@ body{
 
 
 /*Button*/
-
-
+.button{
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 0 0;
+}
+.button .but1{
+  width: 350px;
+}
+.button .but1 h2{
+  color: rgb(134,136,137);
+  font-family: 'Open Sans', sans-serif;
+}
 /*Second Header*/
 .midheader{
   display: flex;
@@ -119,3 +129,15 @@ body{
 }
 
 /*Button 2*/
+.button{
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 0 0;
+}
+.button .but2{
+  width: 350px;
+}
+.button .but2 h2{
+  color: rgb(134,136,137);
+  font-family: 'Open Sans', sans-serif;
+}
