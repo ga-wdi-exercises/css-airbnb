@@ -1,8 +1,9 @@
 body{
-	background-color: #ffffff;
+	background-color: #edefec;
 	width: 75%;
 	min-height: 100vh;
 	margin: 0 auto;
+	font-family: 'Open Sans', sans-serif;
 	
 }
 
@@ -13,56 +14,76 @@ main{
 }
 
 h1 {
-  color: gray;
+  font-weight: bold;
+  font-size: 20px;
 }
 
-h1, h6{
+h1, h5, h6{
 	text-align: center;
+	margin: 0;
+	color: #5a5d60;
+}
+
+h5{
+	font-size: 10px;
+}
+
+h6{
+	font-weight: lighter;
+	margin-bottom: 10px;
 }
 
 div{
+	border-radius: 1%;
 	height: 200px;
-	width: 185px;
+	min-width: 185px;
 	margin: 10px;
 	display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.seeMore{
+	background-color: white;
+	height: 25px;
+	width: 185px;
+	border: 1px solid #bbbdbd;
+	margin: 10px auto 30px;
+	border-radius: 1%;
+}
 .sanfran{
 	background-image: url("../img/san-francisco.jpg");
-	background-position: center;
+	background-size: cover;
 
 }
 
 .newyork{
 	background-image: url("../img/new-york.jpg");
-	background-position: center;
+	background-size: cover;
 
 }
 
 .london{
 	background-image: url("../img/london.jpg");
-	background-position: center;
+	background-size: cover;
 
 }
 
 .napa{
 	background-image: url("../img/napa.jpg");
-	background-position: center;
+	background-size: cover;
 
 }
 
 .sonoma{
 	background-image: url("../img/sonoma.jpg");
-	background-position: center;
+	background-size: cover;
 
 }
 
 .sanfrantwo{
 	background-image: url("../img/san-francisco-2.jpg");
-	background-position: center;
-
+	background-size: cover;
 }
 
 p{
