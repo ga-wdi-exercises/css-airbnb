@@ -8,21 +8,37 @@ body {
   align-content: center;
   text-align: center;
   display: flex;
+  /*padding: 10px;*/
 }
 
 .flexbox {
-  display: flex;
+  /*min-height: 100%;*/
+  /*margin: 0 auto;*/
+  /*display: flex;*/
   flex-direction: column; //only goes in container not in the other items
+  /*align-items: center;*/
+
 }
 
 div {
-  display: flex;
   align-content: space-around;
   align-items: center;
+  /*float: left;*/
+  display: flex;
   margin: 10px;
+  /*padding: 20px;*/
 }
 
-.San-Francisco {
+/*.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}*/
+
+#San-Francisco {
   background: url("../img/san-francisco.jpg");
   background-size: cover;
   display: flex;
@@ -30,9 +46,10 @@ div {
   justify-content: center;
   width: 210px;
   height: 230px;
+
 }
 
-.New-York {
+#New-York {
   background: url("../img/new-york.jpg");
   background-size: cover;
   display: flex;
@@ -42,7 +59,7 @@ div {
   height: 230px;
 }
 
-.London {
+#London {
   background: url("../img/london.jpg");
   background-size: cover;
   display: flex;
@@ -50,9 +67,10 @@ div {
   justify-content: center;
   width: 210px;
   height: 230px;
+
 }
 
-.Napa {
+#Napa {
   background: url("../img/napa.jpg");
   background-size: cover;
   display: flex;
@@ -62,7 +80,7 @@ div {
   height: 230px;
 }
 
-.Sonoma {
+#Sonoma {
   background: url("../img/sonoma.jpg");
   background-size: cover;
   display: flex;
@@ -73,7 +91,7 @@ div {
 
 }
 
-.SanFran {
+#SanFran {
   background: url("../img/san-francisco-2.jpg");
   background-size: cover;
   display: flex;
@@ -81,6 +99,11 @@ div {
   justify-content: center;
   width: 210px;
   height: 230px;
+}
+
+span {
+  display: table;
+  position: relative;
 }
 
 h1 {
@@ -110,4 +133,9 @@ button [type="button"] {
   background-color: #FFF;
   color: #666B6D;
   align-items: center;
+  /*padding: 3px 40px;*/
+  /*display: table;*/
+  /*position: relative;*/
+  /*margin-top: 400px;*/
+
 }
