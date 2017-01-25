@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <title>Hello Front-End</title>
+</head>
+
+<body class="flexbox">
+  <h1>Meet Guidebooks</h1>
+  <h2>Discover hundreds of local spots recommended by Airbnb hosts</h2>
+<div>
+  <div class="clearfix" id="sunny">
+    <p class="visit"><span>San Francisco</span></p>
+  </div>
+  <div class="clearfix" id="cold">
+    <p class="visit"><span>New York</span></p>
+  </div>
+  <div class="clearfix" id="rainy">
+    <p class="visit"><span>London</span></p></div>
+  </div>
+        <button type="button">See All Guidebooks</button>
+
+  <h1>Just for the Weekend</h1>
+  <h2>Discover new, inspiring places close to home.</h2>
+
+<div>
+  <div class="clearfix" id="grapes">
+  <p class="visit"><span>Napa</span></p>
+</div>
+<div class="clearfix" id="wine">
+  <p class="visit"><span>Somona</span></p>
+</div>
+<div class="clearfix" id="sunny-2">
+  <p class="visit"><span>San Francisco</span></p></div>
+  </div>
+    <button type="button">See All Destinations</button>
+
+</body>
+</html>
