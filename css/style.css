@@ -1,3 +1,63 @@
+body {
+  background-color: rgb(237,239,236);
+  text-align: center;
+  flex-wrap: wrap;
+  align-content: space-around;
+  margin: auto;
+}
 h1 {
-  color: salmon;
+  font-family: 'Lato', sans-serif;
+  color: black;
+  margin-bottom: 10px;
+}
+h2 {
+  font-family: 'Lato', sans-serif;
+  color: white;
+  margin-top: 85px;
+}
+p {
+  font-family: 'Lato', sans-serif;
+  color: black;
+  margin-top: 0;
+}
+button {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  display:block;
+  margin: auto;
+  padding: 10px 70px;
+  border: 1px solid grey;
+  background-color: #FFFFFF;
+}
+.guidebook, .destination {
+  display: inline;
+  margin: auto;
+}
+.photo {
+  height:200px;
+  width:200px;
+  margin: 10px;
+  background-size: cover;
+  display: inline-block;
+}
+.discover {
+  align-items: center;
+}
+#sanfran {
+  background-image: url("../img/san-francisco.jpg");
+}
+#ny {
+  background-image: url("../img/new-york.jpg");
+}
+#london {
+  background-image: url("../img/london.jpg");
+}
+#napa {
+  background-image: url("../img/napa.jpg");
+}
+#sonoma {
+  background-image: url("../img/sonoma.jpg");
+}
+#sf2 {
+  background-image: url("../img/san-francisco-2.jpg");
 }
