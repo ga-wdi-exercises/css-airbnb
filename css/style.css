@@ -59,21 +59,7 @@ body{
   background-image: url('../img/london.jpg');
 
 }
-/*
-.button {
-  display: inline;
-  font-size: 8px;
-  font-weight: bold;
-  color: #838384;
-  font-family: Helvetica,Arial,sans-serif;
-  text-align: center;
-  border: 1px solid red;
-  margin: 20px 600px;
-  background-color: #f9fafc;
-  padding: 10px 160px;
 
-}
-*/
 p {
 font-size: 8px;
 border: 1px solid #c0c1c4;
