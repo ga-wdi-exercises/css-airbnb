@@ -1,3 +1,88 @@
-h1 {
-  color: salmon;
+body {
+	background:rgb(231,235,231);
+	font-family: 'Roboto', sans-serif;
+}
+h2 {
+  color: rgb(69,72,75);
+  text-align: center;
+}
+
+h4 {
+	color: rgb(69,72,75);
+	text-align: center;
+}
+
+.container {
+	height: 100vh;
+	width: 100vw;
+}
+
+.sf {
+	background: url(../img/san-francisco.jpg) no-repeat;
+}
+
+.ny {
+	background: url(../img/new-york.jpg) no-repeat;
+}
+
+.london {
+	background: url(../img/london.jpg) no-repeat;
+}
+.napa {
+	background: url(../img/napa.jpg) no-repeat;
+}
+.sonoma {
+	background: url(../img/sonoma.jpg) no-repeat;
+}
+.sf2 {
+	background: url(../img/san-francisco-2.jpg) no-repeat;
+}
+
+
+.button {
+	height: 40px;
+	width: 200px;
+}
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  margin: 0 auto;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  background-size: cover;
+  
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+.button {
+	height: 40px;
+	width: 200px;
+	color: rgb(69,72,75);
+	line-height: 0px;
+	font-size: 15px;
+	background: rgb(255,255,255);
+}
+
+div {
+  width: 800px;
+  height: 250px;
+  margin: 0 auto;
 }
