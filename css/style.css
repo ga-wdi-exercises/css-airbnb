@@ -1,3 +1,38 @@
-h1 {
-  color: salmon;
+
+h2 {
+  color: ;
+  text-align: center;
+}
+h5 {
+  color: ;
+  text-align: center;
+}
+body{
+  background-color: #E8E8E8;
+}
+button{
+  width: 200px;
+  height: 2px;
+}
+
+
+
+
+.pictures {
+/*padding: 30px;*/
+display: flex;
+justify-content: center;
+}
+img{
+  margin: 25px 25px 0 25px;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+}
+
+p {
+  text-align: center;
+  margin: 4px;
 }
