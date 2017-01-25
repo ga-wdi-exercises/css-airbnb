@@ -1,18 +1,35 @@
+html{
+  background-color: rgb(234,236,233);
+}
+
 h1, p {
-  font-family: sans-serif;
+  font-family: 'Valera Round', sans-serif;;
   display: flex;
   justify-content: center;
-  color: rgb(90, 94,97 );
+  color: rgb(77, 80, 83);
   line-height: .5;
 }
 
-.cities{
+h1{
+  font-size: 18px;
+
+}
+
+p{
+  font-size: 10px;
+}
+
+br{
+  line-height: 1.5;
+}
+
+main{
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
   font-weight: bold;
-  font-family:  sans-serif;
+  font-family: 'Varela Round', sans-serif;
 }
 
 .SanFran{
@@ -23,7 +40,7 @@ h1, p {
   float: left;
   text-align: center;
   vertical-align: center;
-  line-height: 250px;
+  line-height: 180px;
   margin: 10px;
 }
 
@@ -35,7 +52,7 @@ h1, p {
   float: left;
   text-align: center;
   vertical-align: center;
-  line-height: 250px;
+  line-height: 180px;
   margin: 10px;
 }
 
@@ -47,31 +64,31 @@ h1, p {
   float: left;
   text-align: center;
   vertical-align: center;
-  line-height: 250px;
+  line-height: 180px;
   margin: 10px;
 }
 
 .Napa{
   background-image:url(../img/napa.jpg);
   background-size: cover;
-  height: 200px;
+  height: 175px;
   width: 175px;
   float: left;
   text-align: center;
   vertical-align: center;
-  line-height: 250px;
+  line-height: 180px;
   margin: 10px;
 }
 
 .Sonoma{
   background-image:url(../img/sonoma.jpg);
   background-size: cover;
-  height: 200px;
+  height: 175px;
   width: 175px;
   float: left;
   text-align: center;
   vertical-align: center;
-  line-height: 250px;
+  line-height: 180px;
   margin: 10px;
 
 }
@@ -79,25 +96,25 @@ h1, p {
 .SanFran2{
   background-image:url(../img/san-francisco-2.jpg);
   background-size: cover;
-  height: 200px;
+  align-items: center;
+  height: 175px;
   width: 175px;
   float: left;
   text-align: center;
   vertical-align: center;
-  line-height: 250px;
+  line-height: 180px;
   margin: 10px;
 
 }
 
+
 button{
   border: 1px solid rgb(196, 196, 196);
   background-color: rgb(255, 255, 255);
-  text-decoration: none;
   display: flex;
   margin: 0 auto;
-  border-radius: 0;
-  width: 210px;
+  width: 175px;
   height: 30px;
-  align-content: center;
-  font-family: sans-serif;
+  font-family: 'Valera Round', sans-serif;
+  color: rgb(90, 94,97);
 }
