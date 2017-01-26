@@ -1,3 +1,183 @@
-h1 {
-  color: salmon;
+body{
+  font-family: "LL brown", Arial, sans-serif ;
+  background-color: rgb(237,239,236);
+  color: #55595D;
+  font-weight: normal;
+
 }
+/*main file*/
+main{
+  margin: 0 auto;
+  width: 1200px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+h2{
+  font-size: 32px;
+  font-weight: lighter;
+}
+h3{
+  font-size: 18px;
+  padding-bottom: 10px;
+  font-weight: normal;
+}
+
+/* Logo*/
+.logo{
+  margin: 0;
+  padding: 0;
+}
+.logo img{
+  width: 80px;
+  height: 80px;
+}
+
+/*navigation*/
+nav{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+.nav_list ul{
+  display: block;
+  margin: 0;
+  padding:0;
+  list-style-type: none;
+}
+
+.nav_list li{
+  text-decoration: none;
+  text-align: center;
+  float: left;
+  margin-top: 20px;
+  padding-right: 20px;
+
+}
+
+.nav_list a{
+  display: inline-block;
+  text-decoration: none;
+  color:#000;
+  font-size: 20px;
+  padding-right: 20px;
+}
+
+/*extra link-Guidebooks and weekend*/
+
+div.Guidebooks>div{
+  height: 360px;
+  width: 360px;
+  margin-right: 20px;
+  float: left;
+}
+
+div.weeknd>div{
+  height: 360px;
+  width: 360px;
+  float: left;
+  margin-right: 20px;
+}
+
+div.images#san_Fran{
+  /*Image files as a background for divs*/
+  background: url("../img/san-francisco.jpg") center no-repeat;
+}
+
+div.images#new_York{
+  background: url("../img/new-york.jpg") center no-repeat;
+}
+
+div.images#london{
+  background: url("../img/london.jpg") center no-repeat;
+}
+
+div.images#napa{
+  background: url("../img/napa.jpg") center no-repeat;
+}
+div.images#sonoma{
+    background: url("../img/sonoma.jpg") center no-repeat;
+}
+div.images#san_Fran1{
+  background: url("../img/san-francisco-2.jpg") center no-repeat;
+}
+
+/*centering the image files*/
+.images{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.images>p{
+  font-size: 36px;
+  color:#fff;
+}
+div.more_link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(85,89,93,0.5);
+  margin: 60px 0 40px 380px;
+  width: 380px;
+  height:40px;
+  background-color: #ffffff;
+
+}
+/*anchor file*/
+a{
+	text-decoration: none;
+	display: block;
+	float: left;
+	padding: 10px;
+	width: 80px;
+}
+
+
+/*clear style*/
+.clearfix:after {
+        visibility: hidden;
+        display: block;
+        content: " ";
+        clear: both;
+        height: 0;
+        font-size: 0;
+      }
+
+/*Screen sizes below 800px style*/
+
+@media screen and (max-width: 800px) {
+
+  body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      main{
+        width: 800px;
+      }
+      .Guidebooks{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-bottom: 10px;
+    }
+      .weeknd{
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           margin: 0 auto;
+           margin: 10px 0;
+         }
+       .Guidebooks>div{
+         margin: 10px 0;
+       }
+       .weeknd>div{
+         margin: 10px 0;
+       }
+       div.more_link{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         background-color: #000;
+         color: #fff;
+       }
+      }
