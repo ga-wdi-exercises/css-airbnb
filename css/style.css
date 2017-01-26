@@ -1,3 +1,77 @@
-h1 {
-  color: salmon;
+body {
+  font-family: sans-serif;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #5c5f60;
+  background-color: #edeeec;
+}
+
+#container, section, header, .spot-div, .spot {
+  display: flex;
+}
+
+#container, section, header, .spot {
+  flex-direction: column;
+}
+
+#container, section, .spot-div {
+  justify-content: space-between;
+}
+
+#container {
+  padding: 20px;
+  margin: 0 auto;
+  width: 680px;
+  height: 770px;
+}
+
+section {
+  height: 366px;
+}
+
+header {
+  height: 45px;
+  justify-content: space-around;
+}
+
+.spot-div {
+  height: 235px;
+}
+
+.button-div {
+  height: 30px;
+}
+
+.spot {
+  width: 215px;
+  height: 235px;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+  color: #fefdfd;
+}
+
+h1, h2, p, button {
+  opacity: 0.9;
+}
+
+h1, h2 {
+  font-size: 20px;
+}
+
+h1, button {
+  font-weight: bold;
+}
+
+p {
+  font-size: 10px;
+}
+
+button {
+  color: #5c5f60;
+  width: 210px;
+  font-size: 10px;
+  padding: 8px;
+  background-color: #fefdfd;
+  border: 1px solid #c5c6c5;
 }
