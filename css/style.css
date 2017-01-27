@@ -1,3 +1,36 @@
 h1 {
-  color: salmon;
+  color: gray;
+  text-align: center;
+  font-family: arial;
+}
+h2 {
+  color: gray;
+  text-align: center;
+  font-family: arial;
+}
+
+.row1 {
+  height: 225px;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;;
+}
+.row2 {
+  height: 300px;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;;
+}
+img{
+  max-height:100%;
+}
+#subhead {
+  text-align: center;
+}
+
+button {
+margin: auto;
+display: block;
 }
