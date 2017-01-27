@@ -1,3 +1,119 @@
-h1 {
-  color: salmon;
+body{
+  font-family: 'CarlitoRegular';
+  font-weight: normal;
+  font-style: normal;
+}
+header {
+  text-align: center;
+}
+
+h1{
+  padding: 0px 0px 0px 0px;
+  margin: 0 auto;
+}
+
+p{
+  margin: 0 auto;
+}
+section{
+  text-align: center;
+  padding-bottom: 25px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+/*get rid of the magin bottom before submitting*/
+
+#section1 {
+  min-height: 250px;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+button{
+align-content: center;
+margin-top: 10px;
+width: 225px;
+height: 35px;
+font-weight: bold;
+}
+
+#section2 {
+  min-height: 250px;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.sf{
+  height: 190px;
+  width:190px;
+  background-image: url(../img/san-francisco.jpg);
+  background-position: center;
+  color: white;
+  font-size: 20px;
+  line-height: 190px;
+  text-align: center;
+  vertical-align: middle;
+}
+.ny{
+  height: 190px;
+  width:190px;
+  background-image: url(../img/new-york.jpg);
+  background-position: center;
+  color: white;
+  font-size: 20px;
+  line-height: 190px;
+  text-align: center;
+  vertical-align: middle;
+}
+.ln{
+  height: 190px;
+  width:190px;
+  background-image: url(../img/london.jpg);
+  background-position: center;
+  color: white;
+  font-size: 20px;
+  line-height: 190px;
+  text-align: center;
+  vertical-align: middle;
+}
+.napa{
+  height: 190px;
+  width:190px;
+  background-image: url(../img/napa.jpg);
+  background-position: center;
+  color: white;
+  font-size: 20px;
+  line-height: 190px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.sonoma{
+  height: 190px;
+  width:190px;
+  background-image: url(../img/sonoma.jpg);
+  background-position: center;
+  color: white;
+  font-size: 20px;
+  line-height: 190px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.sf2{
+  height: 190px;
+  width:190px;
+  background-image: url(../img/san-francisco-2.jpg);
+  background-position: center;
+  color: white;
+  font-size: 20px;
+  line-height: 190px;
+  text-align: center;
+  vertical-align: middle;
 }
