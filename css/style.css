@@ -1,3 +1,61 @@
+html{}
+body{ 
+	width: 100%;
+}
 h1 {
-  color: salmon;
+  color: grey;
+}
+.picZone {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.seperator{
+	width: 60%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.seperatorTwo{
+	width: 60%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.picOne, .picTwo, .picThree, .picFour, .picFive, .picSix{
+ width: 200px;
+ height: 200px;
+ background-size: 100% 100%;
+ text-align: center;
+}
+
+
+.picOne{
+	background-image: url('../img/san-francisco.jpg');
+	
+
+}
+.picTwo{
+	background-image: url('../img/new-york.jpg');
+
+}
+.picThree{
+	background-image: url('../img/london.jpg');
+
+}
+.picFour{
+	background-image: url('../img/napa.jpg');
+}
+
+.picFive{
+	background-image: url('../img/sonoma.jpg');
+}
+
+.picSix{
+	background-image: url('../img/san-francisco-2.jpg');
 }
