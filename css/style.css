@@ -1,3 +1,91 @@
-h1 {
-  color: salmon;
+html {
+  display: flex;
+}
+
+body {
+  
+  font-family: Helvetica, sans-sarif;
+  background-color: #E9EBE7;
+  color: #45484d;
+  margin: 0 auto;
+  flex-direction: column;
+  max-width: 800px;
+
+}
+
+h6 {
+  color: grey;
+}
+
+.sectionHead {
+  font-family: Helvetica, sans-sarif;
+  background-color: #E9EBE7;
+  color: #45484d;
+  margin: 0 auto;
+  text-align: center;
+  line-height: .5;
+}
+
+#sanfran {
+	background-image: url("../img/san-francisco.jpg");
+}
+
+#newyork {
+  background-image: url("../img/new-york.jpg");
+}
+
+#london {
+  background-image: url("../img/london.jpg");
+}
+
+#sonoma {
+  background-image: url("../img/sonoma.jpg");
+}
+
+#napa {
+  background-image: url("../img/napa.jpg");
+}
+
+#sanfran2 {
+  background-image: url("../img/san-francisco-2.jpg");
+}
+
+.photobox {
+  margin: 15px;
+}
+.photos {
+  width: 200px;
+  height: 200px;
+	color: white;
+  background-color: white;
+  display: inline-block;
+  background-size: cover;
+  text-align: center;
+  line-height: 150px;
+  margin: 5px;
+}
+
+span {
+  text-align: center;
+  height: 20px;
+  line-height: 20px;
+  font-family: Helvetica, sans-sarif;
+  font-size: 8px;
+  color: grey;
+  margin: 0 auto;
+  font-weight: bold;
+
+}
+
+#button {
+  display: block;
+  background-color: white;
+  text-align: center;
+  color: #45484d;
+  height: 20px;
+  width: 200px;
+  line-height: 10px;
+  margin: 0 auto;
+  border: 1px solid #45484d;
+
 }
