@@ -1,0 +1,78 @@
+h1 {
+  color: black;
+  font-family: Heluetica, sans-serif;
+  font-size: 40px;
+}
+h2{
+  font-weight: lighter;
+}
+body{
+  position: relative;
+  display: inline-block;
+  background-size: cover;
+  background-color: #E9EBE7;
+  margin: 15px;
+}
+button{
+  background-color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 70px;
+  border: 1px solid #45484D;
+  color: #45484D;
+  margin: 20px;
+}
+.spots-images {
+  margin: 20px 0;
+  color: white;
+}
+.spots-images .spot {
+  position: relative;
+  display: inline-block;
+  background-size: cover;
+  background-color: #E9EBE7;
+  width: 300px;
+  height: 300px;
+  margin: 15px;
+}
+
+.spots-images .spot-title {
+  margin: 0;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+}
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+.places {
+  text-align: center;
+  margin: 50px 0;
+}
+.san-francisco-1 {
+  background-image: url("../img/san-francisco.jpg");
+}
+
+.san-francisco-2 {
+  background-image: url("../img/san-francisco-2.jpg");
+}
+
+.new-york {
+  background-image: url("../img/new-york.jpg");
+}
+
+.london {
+  background-image: url("../img/london.jpg");
+}
+
+.napa {
+  background-image: url("../img/napa.jpg");
+}
+
+.sonoma {
+  background-image: url("../img/sonoma.jpg");
+}
