@@ -15,8 +15,8 @@
 	background: url(../img/san-francisco.jpg);
 	background-repeat: no-repeat;
 	margin: 10px;
-	height: 300px;
-	width: 300px;
+	height: 200px;
+	width: 200px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -25,8 +25,8 @@
 	background: url(../img/new-york.jpg);
 	background-repeat: no-repeat;
 	margin: 10px;
-	height: 300px;
-	width: 300px;
+	height: 200px;
+	width: 200px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -36,8 +36,8 @@
 	background: url(../img/london.jpg);
 	background-repeat: no-repeat;
 	margin: 10px;
-	height: 300px;
-	width: 300px;
+	height: 200px;
+	width: 200px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -47,8 +47,8 @@
 	background: url(../img/Napa.jpg);
 	background-repeat: no-repeat;
 	margin: 10px;
-	height: 300px;
-	width: 300px;
+	height: 200px;
+	width: 200px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -58,8 +58,8 @@
 	background: url(../img/Sonoma.jpg);
 	background-repeat: no-repeat;
 	margin: 10px;
-	height: 300px;
-	width: 300px;
+	height: 200px;
+	width: 200px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -68,8 +68,8 @@
 .San-Fransisco-two {
 	background: url(../img/san-francisco-2.jpg);
 	margin: 10px;
-	height: 300px;
-	width: 300px;
+	height: 200px;
+	width: 200px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
