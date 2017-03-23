@@ -20,6 +20,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	background-size: 100%;
 }
 .New-York {
 	background: url(../img/new-york.jpg);
@@ -30,6 +31,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	background-size: 100%;
 }
 
 .London {
@@ -41,6 +43,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	background-size: 100%;
 }
 
 .Napa {
@@ -52,6 +55,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	background-size: 100%;
 }
 
 .Sonoma {
@@ -63,6 +67,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	background-size: 100%;
 }
 
 .San-Fransisco-two {
@@ -73,6 +78,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	background-size: 100%;
 }
 
 .city-name {
@@ -80,6 +86,7 @@
 	font-weight: bold;
 	font-size: 30px;
 	color: white;
+	
 }
 
 
