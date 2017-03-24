@@ -1,4 +1,67 @@
-img {
-	width: 200px;
-	height: 200px;
+
+h3{
+	color: white;
 }
+.picture1 {
+	position: relative;
+   	width: 615px;
+   	height: 410px;
+   	padding: 20px;
+   	
+
+
+}
+
+.h31{
+	position: absolute;
+    width: 615px;
+    height: 410px;
+    top: 205px;
+    left: 307.5px;
+    
+
+}
+
+.picture2 {
+	position: relative; 
+   width: 675px;
+   height: 675px;
+   padding: 20px;
+	
+	
+}
+
+
+.h32 {
+	position: absolute;
+    width: 675px;
+    height: 675px;
+    top: 337.5px;
+    left: 337.5px;
+}
+
+.container1 {
+	display: flex;
+	flex-direction: row;
+	align-content: stretch;
+	width: 800px;
+	margin: 0 auto;
+}
+
+.container2 {
+	display: flex;
+	flex-direction: row;
+	align-content: stretch;
+	width:800px;
+	margin: 0 auto;
+}
+
+body {
+	
+
+}
+
+
+
+
+
