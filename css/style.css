@@ -1,10 +1,36 @@
-h1 {
-  padding-top: 40px;
-}
-
 body {
   background-color: #e0e3e0;
+  font-family: 'Helvetica', sans-serif;
+  color: #54585e;
+  letter-spacing: .07em;
 }
+
+button {
+  margin-top: 35px;
+  padding: 10px 40px 10px 40px;
+  font-weight: bold;
+  background: white;
+  border: 1px solid grey;
+  font-size: 13px
+  color: #54585e;
+}
+
+.container > h1 {
+  padding-top: 40px;
+  margin-bottom: 0px;
+}
+
+.container > h2 {
+  font-size: 18px;
+  font-weight: normal;
+  padding-bottom: 15px;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+
 
 .container {
   max-width: 960px;
@@ -24,6 +50,10 @@ body {
   height: 275px;
   background-color: red;
   margin: 5px;
+}
+
+.city h1 {
+  padding-top: 100px;
 }
 
 .san {
