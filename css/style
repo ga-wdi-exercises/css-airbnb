@@ -44,7 +44,7 @@ h3{
 	display: flex;
 	flex-direction: row;
 	align-content: stretch;
-	/*width: 2000px;*/
+	width: 2000px;
 	margin: 0 auto;
 }
 
@@ -52,7 +52,7 @@ h3{
 	display: flex;
 	flex-direction: row;
 	align-content: stretch;
-	/*width:2145px;*/
+	width:2145px;
 	margin: 0 auto;
 }
 
@@ -68,7 +68,7 @@ h1,h2 {
 body {
 	background-color: rgb(230, 230, 230, 0.5);
 	font-family: 'Oswald', sans-serif;
-	/*width: 2000px;*/
+	width: 2000px;
 }
 
 h1 {
@@ -84,15 +84,18 @@ h2 {
 
 .button {
 	background-color: yellow;
-	/*width: 400px;*/
+	width: 400px;
 	margin-top: 30px;
 	margin-bottom: 30px;
-	/*height: 50px;*/
-	text-align: center;
+	height: 50px;
+
 
 }
 
-
+section {
+	justify-content: center;
+	margin: 
+}
 
 
 
