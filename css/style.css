@@ -1,3 +1,77 @@
-h1 {
-  color: salmon;
+body {
+  background: #EDEFEC;
+  color: #55595D;
+  font-family: 'Poppins', sans-serif;
 }
+
+.container {
+  width: 75%;
+  margin: auto;
+  text-align: center;
+}
+
+.guidebooks, .weekend-des {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+article {
+  height: 370px;
+  width: 460px;
+  margin: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+article h3 {
+  font-size: 24px;
+}
+
+/* Guidebooks */
+
+  .san-fran {
+    background: url('../img/san-francisco.jpg') center no-repeat;
+  }
+
+  .new-york {
+    background: url('../img/new-york.jpg') center no-repeat;
+  }
+
+  .london {
+    background: url('../img/london.jpg') center no-repeat;
+  }
+
+/* Weekend */
+
+  .napa {
+    background: url('../img/napa.jpg') left no-repeat;
+  }
+
+  .sonoma {
+    background: url('../img/sonoma.jpg') center no-repeat;
+  }
+
+  .san-fran-2 {
+    background: url('../img/san-francisco-2.jpg') center no-repeat;
+  }
+
+.button {
+  padding: 50px;
+}
+
+.button  a {
+    background: #fff;
+    padding: 10px 35px;
+    color: #55595D;
+    text-decoration: none;
+    border: 1px solid #C9C8C9;
+    border-radius: 2px;
+    font-weight: 600;
+  }
+
+  .button a:active {
+    background: #55595D;
+    color: #fff;
+  }
