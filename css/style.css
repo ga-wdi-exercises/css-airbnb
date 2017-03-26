@@ -1,3 +1,150 @@
+html {
+  background-color: #edefec;
+}
+
+.wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.pictureSize {
+  overflow: auto;
+  max-height: 300px;
+  max-width: 300px;
+  min-height: 300px;
+}
+
 h1 {
-  color: salmon;
+  text-align: center;
+  color: #575b5c;
+}
+
+h2 {
+  text-align: center;
+  color: #575b5c;
+  font-size: 17px;
+  /*font-weight: 170;*/
+  margin-top: -15px;
+}
+
+#pictureContainer1 {
+  display: flex;
+  /*overflow: inherit;*/
+}
+
+#pictureContainer2 {
+  display: flex;
+  /*overflow: inherit;*/
+}
+
+/*.button1 {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+}*/
+
+.button1 {
+    display:block;
+    width:20%;
+    margin:0 auto;
+    margin-top: -80px;
+    padding: 15px 32px;
+    position:relative;
+    font-style:normal;
+    font-weight:normal;
+    font-family:"Open Sans";
+    font-size:14px;
+    outline:none;
+    color:#575b5c;
+    border:none;
+    text-decoration:none;
+    text-align:center;
+    cursor:pointer;
+    border-radius:2px;
+    background-color:#fdfcfa;
+    border-bottom:1px solid #7b8b2f;
+}
+
+/*.button2 {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}*/
+
+.button2 {
+    display:block;
+    width:20%;
+    margin:0 auto;
+    margin-top: -85px;
+    padding: 15px 32px;
+    position:relative;
+    font-style:normal;
+    font-weight:normal;
+    font-family:"Open Sans";
+    font-size:14px;
+    outline:none;
+    color:#575b5c;
+    border:none;
+    text-decoration:none;
+    text-align:center;
+    cursor:pointer;
+    border-radius:2px;
+    background-color:#fdfcfa;
+    border-bottom:1px solid #7b8b2f;
+}
+
+#napaText {
+  transform: translate(35%, -520%);
+  color: white;
+  font-size: 34px;
+  font-family: "Arial";
+  font-weight: lighter;
+}
+
+#sonomaText {
+  transform: translate(30%, -520%);
+  color: white;
+  font-size: 34px;
+  font-family: "Arial";
+  font-weight: lighter;
+}
+
+#sanfran1Text {
+  transform: translate(15%, -520%);
+  color: white;
+  font-size: 34px;
+  font-family: "Arial";
+  font-weight: lighter;
+}
+
+#sanfran2Text {
+  transform: translate(15%, -535%);
+  color: white;
+  font-size: 34px;
+  font-family: "Arial";
+  font-weight: lighter;
+}
+
+#newyorkText {
+  transform: translate(26%, -535%);
+  color: white;
+  font-size: 34px;
+  font-family: "Arial";
+  font-weight: lighter;
+}
+
+#londonText {
+  transform: translate(31%, -535%);
+  color: white;
+  font-size: 34px;
+  font-family: "Arial";
+  font-weight: lighter;
 }
