@@ -1,3 +1,84 @@
+html {
+	background-color: #EDEFEC;
+}
+
+body {
+	font-family: 'Karla', sans-serif;
+}
+
+h1, h2, .button {
+	text-align: center;
+	color: #56585A;
+}
+
 h1 {
-  color: salmon;
+	font-size: 24px;
+	margin: 40px 0 0 0;
+}
+
+h2 {
+	font-size: 12px;
+	margin: 0;
+	padding: 3px 0;
+	box-sizing: border-box;
+}
+
+section, .button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+section {
+	margin: 25px 0;
+}
+
+.city {
+	height: 260px;
+	width: 235px;
+	margin: 10px;
+	background-position: center center;
+	background-size: cover;
+	color: #FFFFFF;
+	font-size: 24px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.city1:nth-of-type(1) {
+	background-image: url("../img/san-francisco.jpg");
+}
+
+.city1:nth-of-type(2) {
+	background-image: url("../img/new-york.jpg");
+}
+
+.city1:nth-of-type(3) {
+	background-image: url("../img/london.jpg");
+}
+
+.city2:nth-of-type(1) {
+	background-image: url("../img/napa.jpg");
+}
+
+.city2:nth-of-type(2) {
+	background-image: url("../img/sonoma.jpg");
+}
+
+.city2:nth-of-type(3) {
+	background-image: url("../img/san-francisco-2.jpg");
+}
+
+.button-container {
+	display: flex;
+	justify-content: center;
+}
+
+.button {
+	background-color: #FFFFFF;
+	border: solid #BEBEBE 1px;
+	height: 31px;
+	width: 235px;
+	font-size: 12px;
 }
