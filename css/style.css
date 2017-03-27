@@ -13,65 +13,36 @@
 
 .San-Fransisco {
 	background: url(../img/san-francisco.jpg);
-	background-repeat: no-repeat;
-	margin: 10px;
-	height: 200px;
-	width: 200px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background-size: 100%;
+	
 }
 .New-York {
 	background: url(../img/new-york.jpg);
-	background-repeat: no-repeat;
-	margin: 10px;
-	height: 200px;
-	width: 200px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background-size: 100%;
+	
 }
 
 .London {
 	background: url(../img/london.jpg);
-	background-repeat: no-repeat;
-	margin: 10px;
-	height: 200px;
-	width: 200px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background-size: 100%;
+	
 }
 
 .Napa {
 	background: url(../img/Napa.jpg);
-	background-repeat: no-repeat;
-	margin: 10px;
-	height: 200px;
-	width: 200px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background-size: 100%;
+	
 }
 
 .Sonoma {
 	background: url(../img/Sonoma.jpg);
-	background-repeat: no-repeat;
-	margin: 10px;
-	height: 200px;
-	width: 200px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background-size: 100%;
+	
 }
 
 .San-Fransisco-two {
 	background: url(../img/san-francisco-2.jpg);
+	
+}
+
+
+.photo-format {
+	background-repeat: no-repeat;
 	margin: 10px;
 	height: 200px;
 	width: 200px;
@@ -109,10 +80,11 @@ p {
 	border-color: gray;
 	padding: 10px 20px;
 	font-size: 12px;
-	width: 150px;
+	width: 200px;
 	font-weight: lighter;
 	margin-top: 20px;
 	margin-bottom: 20px;
+
 }
 
 .align-links {
