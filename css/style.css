@@ -1,3 +1,47 @@
 h1 {
   color: salmon;
 }
+body {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 700px;
+  background: #EDEFEC;
+}
+
+.imagebox1, .imagebox2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+img {
+  max-height: 225px;
+  max-width: 225px;
+  min-height: 225px;
+}
+
+.innertext {
+  position: absolute;
+  color: #FFF;
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+h1, h4 {
+  font-family: Helvetica, sans-serif;
+  color: #55595C;
+}
+
+h4 {
+  font-size: 12px
+}
+
+button {
+  width: 200px;
+  margin: 20px auto;
+}
