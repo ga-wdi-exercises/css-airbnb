@@ -12,4 +12,65 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  /*justify-content: space-around;*/
+}
+
+.Guidebooks, .Weekend {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 30px;
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+}
+ .Meet {
+   text-align: center;
+ }
+
+.sanfrancisco{
+  background: url(../img/san-francisco.jpg);
+  width: 220px;
+  height: 250px;
+  margin: 0 10px;
+  background-size: cover;
+}
+
+.newyork {
+background: url(../img/new-york.jpg);
+width: 220px;
+height: 250px;
+margin: 0 10px;
+background-size: cover;
+}
+
+.london {
+background: url(../img/london.jpg);
+width: 220px;
+height: 250px;
+margin: 0 10px;
+background-size: cover;
+}
+
+.napa{
+  width: 220px;
+  height: 250px;
+  margin: 0 10px;
+  background: url(../img/napa.jpg);
+  background-size: cover;
+}
+
+.sonoma {
+  width: 220px;
+  height: 250px;
+  margin: 0 10px;
+  background: url(../img/sonoma.jpg);
+  background-size: cover;
+}
+
+.sanfrancisco2 {
+  width: 220px;
+  height: 250px;
+  margin: 0 10px;
+  background: url(../img/san-francisco-2.jpg);
+  background-size: cover;
 }
