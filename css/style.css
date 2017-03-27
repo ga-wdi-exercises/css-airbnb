@@ -1,3 +1,100 @@
-h1 {
-  color: salmon;
+.container {
+	margin: 50px;
+	background-color: #ECEDEF;
+	font-family: sans-serif;
 }
+
+.photo-section {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.San-Fransisco {
+	background: url(../img/san-francisco.jpg);
+	
+}
+.New-York {
+	background: url(../img/new-york.jpg);
+	
+}
+
+.London {
+	background: url(../img/london.jpg);
+	
+}
+
+.Napa {
+	background: url(../img/Napa.jpg);
+	
+}
+
+.Sonoma {
+	background: url(../img/Sonoma.jpg);
+	
+}
+
+.San-Fransisco-two {
+	background: url(../img/san-francisco-2.jpg);
+	
+}
+
+
+.photo-format {
+	background-repeat: no-repeat;
+	margin: 10px;
+	height: 200px;
+	width: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-size: 100%;
+}
+
+.city-name {
+	font-size: 25px;
+	color: white;
+	font-weight: bolder;
+	
+}
+
+h1 {
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+p {
+	text-align: center;
+	font-size: 20px;
+	font-weight: lighter;
+	margin-top: 10px;
+}
+
+.see-all {
+	text-align: center;
+	background-color: white;
+	border: 1px solid;
+	border-color: gray;
+	padding: 10px 20px;
+	font-size: 12px;
+	width: 200px;
+	font-weight: lighter;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+.align-links {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+
+}
+
+
+
+
