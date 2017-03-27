@@ -1,3 +1,26 @@
-h1 {
-  color: salmon;
+
+
+body {
+  background:#EDEFEC;
+  text-align: center;
+  /*display:flex;
+  flex-direction: column;
+  justify-content: center;*/
+  /*margin:0 auto;*/
+}
+.content {
+  max-width: 700px;
+  margin:0 auto;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.imagebox1, .imagebox2 {
+  display:flex;
+  justify-content:space-around;
+}
+img {
+  max-width: 200px;
+  max-height: 200px;
 }
