@@ -1,3 +1,100 @@
-h1 {
-  color: salmon;
+body {
+  height: 100vh;
+  background-color: rgb(237, 239, 236);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: rgb(117, 121, 123);
+  font-family: helvetica, sans-serif;
+}
+
+div.header {
+  text-align: center;
+}
+
+div.local {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div.close {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div.main {
+  width: 450px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+div.image {
+  width: 140px;
+  height: 150px;
+  line-height: 150px;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+}
+
+div.sanfran {
+  background-image: url(https://github.com/andresmaria/css-airbnb/blob/master/img/san-francisco.jpg?raw=true);
+  background-size: cover;
+}
+
+div.newyork {
+  background-image: url(https://github.com/andresmaria/css-airbnb/blob/master/img/new-york.jpg?raw=true);
+  background-size: cover;
+}
+
+div.london {
+  background-image: url(https://github.com/andresmaria/css-airbnb/blob/master/img/london.jpg?raw=true);
+  background-size: cover;
+}
+
+div.napa {
+  background-image: url(https://github.com/andresmaria/css-airbnb/blob/master/img/napa.jpg?raw=true);
+  background-size: cover;
+}
+
+div.sonoma {
+  background-image: url(https://github.com/andresmaria/css-airbnb/blob/master/img/sonoma.jpg?raw=true);
+  background-size: cover;
+}
+
+div.sancisco {
+  background-image: url(https://github.com/andresmaria/css-airbnb/blob/master/img/san-francisco-2.jpg?raw=true);
+  background-size: cover;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.header h2 {
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.header h3 {
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.footer {
+    margin-top: 20px;
+}
+
+.footer h4 {
+  font-size: 10px;
+  background-color: white;
+  border: 1px solid rgb(213, 214, 213);
+  padding: 4px 30px;
+  margin: 10px;
 }
