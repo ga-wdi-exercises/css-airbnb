@@ -1,3 +1,70 @@
 h1 {
   color: salmon;
 }
+html{
+  background:rgb(236,239,236);
+}
+body {
+  min-height: 100vh;
+  margin: 0 auto;
+  font: 12pt Comic Sans MS;
+  text-align:center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: rgb(236,239,236);
+}
+
+header, footer {
+
+  height: 30px;
+
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 100px;
+}
+.button1{
+  width: 150px;
+  height:40px;
+  color: black;
+  background:rgb(236,239,236);
+  cursor: pointer;
+}
+.button1:hover{
+  background:gray;
+  cursor: hand;
+}
+.find{
+  background: #D3D3D3;
+  display: flex;
+  justify-content: space-around;
+}
+
+.picture1{
+  background-image:url("../img/london.jpg");
+}
+.picture2{
+  background-image:url("../img/napa.jpg");
+}
+.picture3{
+  background-image:url("../img/new-york.jpg");
+}
+.picture4{
+  background-image:url("../img/san-francisco.jpg");
+}
+.picture5{
+  background-image:url("../img/san-francisco.jpg");
+}
+.picture6{
+  background-image:url("../img/sonoma.jpg");
+}
+section {
+  width: 300px;
+  height: 300px;
+
+  color: #FFFFFF;
+
+  margin: 40px;
+  text-align: center;
+  line-height: 300px;
+}
