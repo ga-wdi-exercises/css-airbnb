@@ -5,7 +5,14 @@
 body {
   background-color: #e9ebe7;
   color: #43474b;
-  font-family: 'Hind', sans-serif;
+  /*font-family: "Hind", sans-serif;*/
+  font-family: "Helvetica", sans-serif;
+  font-size: 0.7em;
+}
+
+h1 {
+  margin-top: 40px;
+  /*font-weight: normal;*/
 }
 
 .main {
@@ -25,52 +32,90 @@ body {
 }
  .Meet {
    text-align: center;
+   margin-bottom: 10px;
  }
+.Just {
+  margin-bottom: 10px;
+  text-align: center;
 
+}
 .sanfrancisco{
   background: url(../img/san-francisco.jpg);
-  width: 220px;
+  width: 230px;
   height: 250px;
-  margin: 0 10px;
+  margin: 10px;
   background-size: cover;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .newyork {
 background: url(../img/new-york.jpg);
-width: 220px;
+width: 230px;
 height: 250px;
-margin: 0 10px;
+margin: 10px;
 background-size: cover;
+font-weight: bold;
+font-size: 20px;
 }
 
 .london {
 background: url(../img/london.jpg);
-width: 220px;
+width: 230px;
 height: 250px;
-margin: 0 10px;
+margin: 10px;
 background-size: cover;
+font-weight: bold;
+font-size: 20px;
 }
 
 .napa{
-  width: 220px;
+  width: 230px;
   height: 250px;
-  margin: 0 10px;
+  margin: 10px;
   background: url(../img/napa.jpg);
   background-size: cover;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .sonoma {
-  width: 220px;
+  width: 230px;
   height: 250px;
-  margin: 0 10px;
+  margin: 10px;
   background: url(../img/sonoma.jpg);
   background-size: cover;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .sanfrancisco2 {
-  width: 220px;
+  width: 230px;
   height: 250px;
-  margin: 0 10px;
+  margin: 10px;
   background: url(../img/san-francisco-2.jpg);
   background-size: cover;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.Guidebooks p {
+  margin-top: 100px;
+}
+
+.Weekend p {
+  margin-top: 100px;
+}
+
+.button {
+  width: 260px;
+  height: 40px;
+  /*font-family: "Hind", sans-serif;*/
+  font-family: "Helvetica", sans-serif;
+  font-size: 11px;
+  text-align: center;
+  border-style: solid;
+  border-color: #d3d3d3;
+  background-color: #ffffff;
+
 }
