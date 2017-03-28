@@ -6,11 +6,11 @@ body {
   /*align-items: center;*/
   font-family: Arial;
   box-sizing: border-box;
-  margin: 0;
+  margin: 200px, 200px;
 }
 
 .wrapper{
-  margin: 200px;
+  margin: auto;
 }
 main {
 }
@@ -24,6 +24,14 @@ main {
   color: rgb(94,95,97);
 }
 
+.header_one h1{
+  font-size: 16px;
+}
+
+.header_one h2{
+  font-size: 14px;
+}
+
 .header_two{
   display: flex;
   flex-direction: column;
@@ -32,10 +40,18 @@ main {
   color: rgb(94,95,97);
 }
 
+.header_two h1{
+  font-size: 16px;
+}
+
+.header_two h2{
+  font-size: 14px;
+}
+
 .img_container_one {
   display: flex;
   max-width: auto;
-  justify-content: space-between;
+  justify-content: apart;
 }
 
 .img_container_two {
@@ -47,16 +63,18 @@ main {
 .image {
   width: 200px;
   height: 200px;
+  padding-right: 35px;
 
 }
 
 .link_one {
   text-align: center;
-  text-decoration: none;
+  padding-top: 20px;
 }
 
 .link_two {
   text-align: center;
+  padding-top: 20px;
 }
 
 a {
