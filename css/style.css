@@ -42,22 +42,29 @@ header, footer {
 
 .picture1{
   background-image:url("../img/london.jpg");
+  background-size:cover;
 }
 .picture2{
   background-image:url("../img/napa.jpg");
+    background-size:cover;
 }
 .picture3{
   background-image:url("../img/new-york.jpg");
+    background-size:cover;
 }
 .picture4{
   background-image:url("../img/san-francisco.jpg");
+    background-size:cover;
 }
 .picture5{
   background-image:url("../img/san-francisco.jpg");
+    background-size:cover;
 }
 .picture6{
   background-image:url("../img/sonoma.jpg");
+    background-size:cover;
 }
+
 section {
   width: 300px;
   height: 300px;
