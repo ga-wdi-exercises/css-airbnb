@@ -3,13 +3,19 @@ body {
   background-color: #dddddd;
   display: flex;
   flex-wrap: wrap;
+  /*align-items: center;*/
   font-family: Arial;
+  box-sizing: border-box;
+  margin: 0;
 }
 
 /*.wrapper{
   display: flex;
   flex-wrap: wrap;
 }*/
+main {
+}
+
 
 .header_one{
   display: flex;
@@ -25,4 +31,34 @@ body {
   text-align: center;
   margin auto;
   color: green;
+}
+
+.img_container_one {
+  display: flex;
+  max-width: auto;
+  justify-content: space-between;
+}
+
+.img_container_two {
+  display: flex;
+  max-width: auto;
+  justify-content: space-between;
+}
+
+img {
+  display: block;
+
+}
+
+.link_one {
+  text-align: center;
+  text-decoration: none;
+}
+
+.link_two {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
 }
