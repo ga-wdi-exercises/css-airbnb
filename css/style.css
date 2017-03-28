@@ -9,10 +9,9 @@ body {
   margin: 0;
 }
 
-/*.wrapper{
-  display: flex;
-  flex-wrap: wrap;
-}*/
+.wrapper{
+  margin: 200px;
+}
 main {
 }
 
@@ -45,8 +44,9 @@ main {
   justify-content: space-between;
 }
 
-img {
-  display: block;
+.image {
+  width: 200px;
+  height: 200px;
 
 }
 
