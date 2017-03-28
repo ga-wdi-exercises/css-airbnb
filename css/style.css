@@ -1,6 +1,6 @@
 body {
   max-width: auto;
-  background-color: #dddddd;
+  background-color: rgb(237,239,236);
   display: flex;
   flex-wrap: wrap;
   /*align-items: center;*/
@@ -22,7 +22,7 @@ main {
   flex-direction: column;
   text-align: center;
   margin auto;
-  color: green;
+  color: rgb(94,95,97);
 }
 
 .header_two{
@@ -30,7 +30,7 @@ main {
   flex-direction: column;
   text-align: center;
   margin auto;
-  color: green;
+  color: rgb(94,95,97);
 }
 
 .img_container_one {
