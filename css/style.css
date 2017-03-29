@@ -108,3 +108,13 @@ a {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+
+.location {
+  z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  left: 220px;
+  top: 150px;
+}
