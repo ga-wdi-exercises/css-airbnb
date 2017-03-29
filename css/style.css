@@ -1,3 +1,140 @@
 h1 {
-  color: salmon;
+  color: gray;
+  font-size: 50px;
+  font-family: sans-serif;
+}
+
+h2 {
+  color: gray;
+  font-size: 28px;
+  font-family: sans-serif;
+}
+
+body h1 {
+  text-align: center;
+  margin-top: 80px;
+  margin-left: 100px;
+  display: block;
+
+}
+
+body h2 {
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 100px;
+
+}
+
+
+img {
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+  height: 400px;
+  width:300px;
+  float:left;
+  margin-right: 20px;
+  margin-left: 80px;
+
+}
+
+h3 {
+  color: White;
+  font-size: 50px;
+  font-family: sans-serif;
+  text-align: center;
+
+}
+
+#San-Francisco {
+  background: url('/Users/lgmusic24/css-airbnb/img/san-francisco.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 400px;
+  height: 300px;
+  margin-left: 50px;
+  margin-top: 120px;
+}
+
+#New-York {
+  background: url('/Users/lgmusic24/css-airbnb/img/new-york.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 400px;
+  height: 300px;
+  margin-left: 50px;
+  margin-top: 120px;
+}
+
+#London {
+  background: url('/Users/lgmusic24/css-airbnb/img/london.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 400px;
+  height: 300px;
+  margin-left:50px;
+  margin-top: 120px;
+}
+
+#Napa {
+  background: url("/Users/lgmusic24/css-airbnb/img/napa.jpg");
+  background-size: cover;
+  background-position:bottom;
+  width: 400px;
+  height: 300px;
+  margin-left:50px;
+  margin-top: 120px;
+}
+
+#Sonoma {
+  background: url('/Users/lgmusic24/css-airbnb/img/sonoma.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 400px;
+  height: 300px;
+  margin-left:50px;
+  margin-top: 120px;
+}
+
+#San-Francisco-2 {
+  background: url('/Users/lgmusic24/css-airbnb/img/san-francisco-2.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 400px;
+  height: 300px;
+  margin-left: 50px;
+  margin-top: 120px;
+
+}
+.gallery {
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  height:60px;
+  width:350px;
+  margin-top: 40px;
+  margin-left: 470px;
+  padding: 8px 20px 20px 20px;
+  font-size: 20px;
+  text-align: center;
+  cursor: default;
+  box-sizing: border-box;
+  border-width: thick;
+
+}
+
+footer {
+  height:60px;
+  width:350px;
+  margin-top: 5px;
+  margin-left: 2px;
+  margin-right: 5px;
+  padding: 5px 20px 20px 20px;
+  font-size: 20px;
+  text-align: center;
+  cursor: default;
+  box-sizing: border-box;
+  border-width: thick;
 }
