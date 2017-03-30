@@ -1,3 +1,31 @@
 h1 {
-  color: salmon;
+  color: #5A5B5D;
+  font-size: 24px;
+  font-family: sans-serif;
+  font-style: normal;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
 }
+
+h5 {
+  color: #5A5B5D;
+  font-size: 12px;
+  /*font: Helvetica;*/
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+}
+.flexcontainer{
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+ }
+ .centeredText {
+   position: flex;
+   top: 50%;
+   width: 50%;
+   text-align:center;
+   line-height: 1.2;
+   color: red;
+ }
