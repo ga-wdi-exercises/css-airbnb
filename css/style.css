@@ -6,17 +6,47 @@ h1 {
 	/*border: 1px solid red;*/
 	box-sizing: border-box;
 }
+/*body{width: ;}*/
 main{
 	width: ;
 	display: flex;
 	flex-direction: column;
 }
 img{
-	width: 30%;
+	width: 32%;
+	height: 200px;
 }
+/*#sf{
+	background-image: url(img/san-francisco.jpg);
+	background-size: 100%;
+}
+#ny{
+	background-image: url(img/new-york.jpg);
+	background-size: 100%;
+}
+#london{
+	background-image: url(img/london.jpg);
+	background-size: 100%;
+}
+#napa{
+	background-image: url(img/napa.jpg);
+	background-size: 100%;
+}
+#sonoma{
+	background-image: url(img/sonoma.jpg);
+	background-size: 100%;
+}
+#sf2{
+	background-image: url(img/san-francisco-2.jpg);
+	background-size: 100%;
+}*/
 .imgBlock{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
+}
+
+button{
+	margin-top: 20px;
 }
