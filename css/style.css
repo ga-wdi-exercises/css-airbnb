@@ -3,4 +3,20 @@ h1 {
 }
 *{
 	text-align: center;
+	/*border: 1px solid red;*/
+	box-sizing: border-box;
+}
+main{
+	width: ;
+	display: flex;
+	flex-direction: column;
+}
+img{
+	width: 30%;
+}
+.imgBlock{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
 }
