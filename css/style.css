@@ -1,3 +1,39 @@
-h1 {
-  color: salmon;
+body {
+	background-color: rgb(237,239,236);
+	color: rgb(169,169,169);
 }
+
+h1 {
+  color: rgb(169,169,169);
+}
+
+
+*{
+text-align: center;
+box-sizing: border-box;
+}
+
+// 
+
+.img {
+display: -webkit-flex;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+
+// oddly enough the "alignitems" center effect height for the images.
+// spaceBetween 
+img {
+width: 250px
+}
+
+
+p {
+padding: 10px 50px;
+margin: 15px;
+background-color: white;
+}
+
+// attempting to call to p with padding 10px top/bottom and 50px left/right.
