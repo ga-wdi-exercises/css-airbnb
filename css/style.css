@@ -1,3 +1,21 @@
 h1 {
   color: salmon;
+  text-align: center;
+
+}
+
+#first_Row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+
+}
+
+#second_Row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+
 }
