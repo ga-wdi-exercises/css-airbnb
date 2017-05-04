@@ -1,3 +1,69 @@
+main {
+  text-align: center;
+
+}
+
+body {
+  background: #EDEFEC;
+}
 h1 {
-  color: salmon;
+  color: rgb(104, 107, 109);
+  justify-content: center;
+  font-size: 25px;
+  margin: 0 0 -10px 0;
+}
+
+h3 {
+    justify-content: center;
+    font-size: 15px;
+    color: rgb(96, 99, 101);
+
+}
+
+section {
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 270px;
+  height: 300px;
+}
+
+.secondh1 {
+  margin: 20px 0 0 0;
+}
+
+
+
+.flex {
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 20px 0 0 0;
+}
+
+.hold {
+position: relative;
+margin: 0 10px;
+
+}
+
+.cities {
+position: absolute;
+width: 100%;
+top: 150px;
+color: white;
+font-size: 25px;
+font-weight: 100;
+}
+
+button {
+  font-size: 13px;
+  width: 220px;
+  height: 32px;
+  border: 1px black;
+  border-radius: 2px;
+  background: white;
+  margin: 25px 0 25px 0;
 }
