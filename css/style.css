@@ -1,3 +1,125 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin: auto;
+  background-color: #f2f2f2;
+  color: #737373;
+
+}
+
+main {
+width:70%;
+margin: auto;
+
+
+}
+
 h1 {
-  color: salmon;
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: #737373;
+  font-weight: 500;
+}
+
+.button {
+  width: 300px;
+  height: 30px;
+  background-color: white;
+  padding-top: 10px;
+  margin: 60px 0;
+  border: 1px solid #737373;
+  text-align: center;
+}
+
+.guidebook , .destinations {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 40px 0;
+}
+
+.guidebook h2 {
+  margin: 0 auto;
+}
+
+.sf {
+  background-image: url(../img/san-francisco.jpg);
+  background-size: cover;
+  color: white;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.ny {
+  background-image: url(../img/new-york.jpg);
+  background-size: cover;
+  color: white;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.ld {
+  background-image: url(../img/london.jpg);
+  background-size: cover;
+  color: white;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.np {
+  background-image: url(../img/napa.jpg);
+  background-size: cover;
+  color: white;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.sm {
+  background-image: url(../img/sonoma.jpg);
+  background-size: cover;
+  color: white;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.sf2 {
+  background-image: url(../img/san-francisco-2.jpg);
+  background-size: cover;
+  color: white;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
