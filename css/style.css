@@ -1,3 +1,36 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+body {
+  width: auto;
+  height: auto;
+}
 h1 {
-  color: salmon;
+  text-align: center;
+
+
+}
+main {
+  display: flex;
+}
+
+div {
+  border: 5px;
+  font-weight: bold;
+  border-width: thin;
+  border-style: solid;
+  width: 100px;
+  height: 40px;
+
+}
+section {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 30%;
+  height: 25%;
+  padding: 5px;
 }
