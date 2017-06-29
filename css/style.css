@@ -1,3 +1,27 @@
-h1 {
-  color: salmon;
+body {
+  text-align: center;
+  color: #575a5d;
+  font-family:Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+}
+
+img {
+  height: 50vh;
+}
+
+.image {
+    position:relative;
+}
+
+.text {
+    color: white;
+    left: 0;
+    position:absolute;
+    text-align:center;
+    top: 50%;
+    width: 100%;
 }
