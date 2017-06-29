@@ -1,3 +1,76 @@
-h1 {
-  color: salmon;
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background: #EDEFEC;
+  color: #555;
+}
+
+article {
+  text-align: center;
+}
+
+.rowImages {
+  margin: 0 auto;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.innerImages {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imageText {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.sanfran {
+  background: url("../img/san-francisco.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.newyork {
+  background: url("../img/new-york.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.london {
+  background: url("../img/london.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.napa {
+  background: url("../img/napa.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.sonoma {
+  background: url("../img/sonoma.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.sanfran2 {
+  background: url("../img/san-francisco.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+button {
+  margin-top: 50px;
+  padding: 10px 50px;
+}
+
+button:hover {
+  box-shadow: 0 0 10px black;
+}
+
+@media screen and (max-width: 900px) {
+  .rowImages{
+    width: 600px;
+  }
 }
