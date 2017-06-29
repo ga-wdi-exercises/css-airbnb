@@ -1,3 +1,59 @@
-h1 {
-  color: salmon;
+
+section {
+  left:500px;
+}
+.desAll div{
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.desLon {
+  background-image: url("../img/london.jpg");
+}
+.desNY {
+  background-image: url("../img/new-york.jpg");
+}
+.desSan1 {
+  background-image: url("../img/san-francisco.jpg");
+}
+p {
+   font-family: Arial;
+   font-size: 24px;
+   color: white;
+}
+h2 {
+  color: #585b5f;
+  text-align: center;
+}
+h3 {
+  color: #585b5f;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 5px
+}
+
+body {
+  background-color: #edefec;
+  font-family: Arial;
+}
+
+img {
+  height: 250px;
+  width: 250px;
+  margin: 10px;
+}
+
+body {
+  text-align: center;
+
+}
+button {
+  height: 30px;
+  width: 250px;
+  margin: 10px;
 }
