@@ -15,10 +15,35 @@ p{
   font-family: 'Raleway', sans-serif;
 }
 
-.buttonposition{
-  position: center;
-  border: 100px 100px
+
+.bp{
+
+  border: 100px 100px;
   width: 70px;
   height: 30px;
   margin-top: 20px;
+  position: center;
+}
+
+
+.image {
+    position:relative;
+}
+
+.text {
+    left: 0;
+    position:absolute;
+    text-align:center;
+    top: 100px;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20pt;
+    color: white;
+
+}
+
+.collection{
+  display: flex;
+  justify-content:  space-around;
+
 }
