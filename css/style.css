@@ -1,38 +1,31 @@
-h1 {
-  color: salmon;
-}
-
 body {
   background: #EDEFEC;
   color: #5b5e61;
   font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   text-align: center;
-  /*display: flex;*/
-  /*flex-direction: row;*/
 }
 
-h2 {
+h1 {
   font-size: 24px;
   line-height: .5;
   margin-bottom: 10px;
   margin-top: 50px;
 }
 
-h3 {
+h2 {
   font-size: 14px;
   font-weight: 300;
   line-height: 1;
   margin-bottom: 30px;
-
 }
 
-h4 {
+h3 {
   font-weight: 500;
   font-size: 14px;
   line-height: 0px;
 }
 
-section {
+.imageRow {
   font-weight: bold;
   color: #FEFEFE;
   font-size: 24px;
@@ -43,13 +36,13 @@ section {
 }
 
 .imageContainer {
-       width:275px;
-       height:300px;
-       background-size: cover;
-       text-align: center;
-       vertical-align: middle;
-       line-height: 300px;
-       background-position: center;
+  width:275px;
+  height:300px;
+  background-size: cover;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 300px;
+  background-position: center;
 }
 
 #SF {
@@ -80,7 +73,6 @@ background-image: url(../img/Sonoma.jpg);
   border: 1px solid #C1C1C1;
   margin: 40px 575px;
   vertical-align: middle;
-  /*line-height: 0px;*/
   background-color: white;
   height: 32px;
 }
