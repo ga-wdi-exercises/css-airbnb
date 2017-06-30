@@ -6,6 +6,13 @@ h2, p {
   color: #666768;
 }
 
+h2 {
+  margin: 20px 0px 0px 0px;
+}
+
+p {
+  margin: 5px 0px 0px 10px;
+}
 
 .img1 {
   display: flex;
@@ -14,6 +21,7 @@ h2, p {
   align-content: space-between;
   width: 800px;
   padding-bottom: 15px;
+  margin: 5px 0px 0px 0px;
 }
 
 .img2 {
@@ -23,6 +31,7 @@ h2, p {
   align-content: space-between;
   width: 800px;
   padding-bottom: 15px;
+  margin: 5px 0px 0px 0px;
 }
 
 body {
@@ -36,7 +45,7 @@ section {
   width: 800px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
