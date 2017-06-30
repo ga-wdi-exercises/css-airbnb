@@ -1,3 +1,94 @@
+html {
+	margin: 0;
+	border: 0;
+  padding: 0;
+}
+
+body{
+  min-height:100vh;
+  margin: 0 auto;
+  font: 12pt "Helvetica";
+  line-height: 1.3;
+  background-color: #edefec;
+  color: #565a5d;
+}
+
 h1 {
-  color: salmon;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.images{
+  min-height: 20vh;
+  max-height: 57vh;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+}
+
+button{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+.image {
+    position:relative;
+}
+
+.text {
+  font-size: 50pt;
+  color: white;
+    position:absolute;
+    top:170px;
+    right:100px;
+}
+
+.textny {
+  font-size: 50pt;
+  color: white;
+    position:absolute;
+    top:170px;
+    right:180px;
+}
+
+.textln {
+  font-size: 50pt;
+  color: white;
+    position:absolute;
+    top:170px;
+    right:200px;
+}
+
+.textnp {
+  font-size: 50pt;
+  color: white;
+    position:absolute;
+    top:300px;
+    right:250px;
+}
+
+.textso {
+  font-size: 50pt;
+  color: white;
+    position:absolute;
+    top:300px;
+    right:200px;
+}
+
+.textsf2 {
+  font-size: 50pt;
+  color: white;
+    position:absolute;
+    top:300px;
+    right:100px;
 }
