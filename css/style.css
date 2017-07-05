@@ -1,3 +1,82 @@
+body {
+  background-color: #EDEFEC;
+  color: #5D616E;
+  font-family: Circular, sans-serif;
+  letter-spacing: 1px;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 h1 {
-  color: salmon;
+  color: #5D616E;
+  font-size: 24px;
+  margin: 0;
+}
+
+section {
+  margin: 20px auto 0 auto;
+}
+
+div.images {
+  width: 100%;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.images div {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 220px;
+  height: 220px;
+  margin: 10px;
+  position: relative;
+}
+
+h2 {
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #5D616E;
+  font-size: 12px;
+  width: 220px;
+  height: 35px;
+  background-color: white;
+  box-shadow: 0px 0px 2px #5D616E inset;
+  border-radius: 3px;
+  margin: 10px auto;
+}
+
+
+p {
+  margin: 5px 0 10px 0;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 700px){
+
+  /*Changes the div.images display back to block,
+    that way the images will move when looked at
+    on a mobile device*/
+  div.images {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+  }
+
 }
