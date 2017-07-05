@@ -1,3 +1,166 @@
-h1 {
-  color: salmon;
+.text {
+  text-align: center;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  z-index: 0;
+}
+
+.wrapper {
+  text-align: center;
+  margin: 10px;
+}
+
+button {
+  width: 250px;
+  margin-top: 30px;
+}
+.title {
+  margin: 30px 0px 20px 0px;
+}
+.sonoma {
+  color: white;
+  position: relative;;
+  top: -120px;
+  left: 40px;
+  z-index: 1;
+}
+.sanfran {
+  color: white;
+  position: relative;;
+  top: -120px;
+  left: 7px;
+  z-index: 1;
+}
+
+.window {
+  width: 660px;
+  margin: 0 auto;
+}
+
+.napa {
+  color: white;
+  position: relative;;
+  top: -120px;
+  left: 60px;
+  z-index: 1;
+}
+.london {
+  color: white;
+  position: relative;;
+  top: -120px;
+  left: 50px;
+  z-index: 1;
+}
+.newyork {
+  color: white;
+  position: relative;;
+  top: -120px;
+  left: 35px;
+  z-index: 1;
+}
+@media only screen and (max-width: 768px)  {
+
+.row {
+
+  text-align: center;
+  margin: 0 auto;
+
+}
+
+
+.window {
+  width: 768px;
+}
+
+.napa {
+  color: white;
+  position: relative;;
+  top: -120px;
+  left: 0px;
+  z-index: 1;
+}
+.london {
+  color: white;
+  position: relative;;
+  top: -120px;
+  left: 0px;
+  z-index: 1;
+}
+.newyork {
+  color: white;
+  position: relative;;
+  top: -120px;
+  left: 0px;
+  z-index: 1;
+}
+.sonoma {
+  color: white;
+  position: relative;;
+  top: -120px;
+  left: 0px;
+  z-index: 1;
+}
+.sanfran {
+  color: white;
+  position: relative;;
+  top: -120px;
+  left: 0px;
+  z-index: 1;
+}
+
+@media only screen and (max-width: 500px)  {
+
+.row {
+
+  text-align: center;
+  margin: 0 auto;
+
+}
+
+.subtext {
+  font-size: 83%;
+}
+
+.window {
+  width: 500px;
+}
+
+.napa {
+  color: white;
+  position: relative;;
+  top: -120px;
+  left: 0px;
+  z-index: 1;
+}
+.london {
+  color: white;
+  position: relative;;
+  top: -120px;
+  left: 0px;
+  z-index: 1;
+}
+.newyork {
+  color: white;
+  position: relative;;
+  top: -120px;
+  left: 0px;
+  z-index: 1;
+}
+.sonoma {
+  color: white;
+  position: relative;;
+  top: -120px;
+  left: 0px;
+  z-index: 1;
+}
+.sanfran {
+  color: white;
+  position: relative;;
+  top: -120px;
+  left: 0px;
+  z-index: 1;
 }
