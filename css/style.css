@@ -1,3 +1,64 @@
-h1 {
-  color: salmon;
+body{
+  background-color: #edefec;
+  font-family: arial;
+}
+h3{
+  color: #5d616e;
+  font-weight: 700;
+  text-align: center;
+  color: black;
+  font-family: arial;
+}
+h5{
+  color: #5d616e;
+  font-weight: 700;
+  text-align: center;
+  color: black;
+  font-family: arial;
+}
+.topstuff{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img{
+  width: 200px;
+  height: 200px;
+}
+.first3pics{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.location1{
+  display: inline-block;
+}
+h4{
+  transform: translate(20%, 760%);
+  color: white;
+  font: Arial;
+  font-weight: 200;
+}
+h2{
+  text-align: center;
+  justify-content: center;
+}
+.middleStuff{
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+}
+.last3pics{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.afterlast3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#newyork, #sonoma{
+  padding: 0 15px 0 15px;
 }
