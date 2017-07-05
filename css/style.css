@@ -1,3 +1,67 @@
 h1 {
-  color: salmon;
+  color: #808080;
+  font-weight: bold;
+  text-align: center;
+  style: "PADDING-LEFT: 15px; PADDING-RIGHT: 15px;"
+}
+h2 {
+  color: #A9A9A9;
+  font-weight: normal;
+  text-align: center;
+}
+p {
+  display:flex;
+  justify-content: center;
+  align-items: center
+}
+body {
+  background: #D3D3D3;
+}
+background {
+  border: black;
+}
+#San{
+  position: absolute;
+  top: 100px;
+  left: 160px;
+  color: white;
+  font: Arial;
+}
+.san {
+  width: 250px;
+  height: 240px;
+}
+.new {
+  width: 250px;
+  height: 240px;
+}
+.london {
+  width: 250px;
+  height: 240px;
+}
+.napa {
+  max-width: auto;
+  max-height: 250px;
+}
+.sonoma {
+  max-width: auto;
+  max-height: 250px;
+}
+.fran {
+  max-width: auto;
+  max-height: 250px;
+}
+.a {
+  background-color: white;
+  font: blue;
+}
+.solid {
+  font-weight: bold;
+  border-color: #808080;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background: white;
 }
