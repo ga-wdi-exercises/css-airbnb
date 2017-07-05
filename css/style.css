@@ -1,3 +1,15 @@
 h1 {
-  color: salmon;
+  color: darkgrey;
+  text-align: center;
+   }
+p{
+    text-align: center;
+  }
+img{
+  min-height: 100vh;
+  margin: 0 auto;
+  font: 12pt Comic Sans MS;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
