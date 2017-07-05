@@ -1,3 +1,22 @@
 h1 {
-  color: salmon;
+  color: 	#696969;
+  font-family: 'Arimo', sans-serif;
+  font-size: 150%;
+}
+p {
+  color: 	#696969;
+  font-family: 'Arimo', sans-serif;
+}
+img {
+  height: 200px;
+  width: 180px;
+}
+body {
+  text-align: center;
+}
+
+.flexbox {
+display: flex;
+flex-direction: row;
+justify-content: center;
 }
