@@ -1,3 +1,57 @@
-h1 {
-  color: salmon;
+body {
+  text-align: center;
+  background-color: #edefec;
+  color: #575a5d;
+  font-family:Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+
+img {
+  width: 160px;
+  height: 175px;
+  margin: 0 10px;
+}
+
+.image {
+    position:relative;
+}
+
+.text {
+    color: white;
+    left: 0;
+    position:absolute;
+    text-align:center;
+    top: 40%;
+    width: 100%;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+h4 {
+  line-height: 0.1;
+  margin: 40px 0 14px 0;
+}
+
+p {
+  font-size: 8px;
+  padding: 0 0 10px 0;
+}
+
+.button {
+  font-size: 8px;
+  font-weight: 600;
+  color: #58595b;
+  text-align: center;
+  padding: 6px 0;
+  margin: 25px auto;
+  width: 155px;
+  background-color: #fff;
+  border: 1px solid #c8c8c8;
 }
