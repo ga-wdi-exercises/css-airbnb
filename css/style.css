@@ -1,3 +1,74 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #EDEFEC;
+  display: flex;
+  justify-content: center;
+}
 h1 {
-  color: salmon;
+  font-size: 1em;
+  color: #54595D;
+  margin: 5px 0;
+  font-weight: 700;
+}
+h2 {
+  font-size: 0.5em;
+  color: #54595D;
+}
+.categories {
+  display: flex;
+  flex-direction: column;
+}
+.category {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.locations {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+.location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 185px;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  margin: 0 7px;
+}
+button {
+  align-self: center;
+  color: #54595D;
+  background-color: white;
+  border: 1px solid #C3C3C3;
+  font-weight: 700;
+  font-size: 0.5em;
+  padding: 5px 40px;
+}
+#sanfran1 {
+  background-image: url('../img/san-francisco.jpg');
+}
+#newyork {
+  background-image: url('../img/new-york.jpg');
+}
+#london {
+  background-image: url('../img/london.jpg');
+}
+#napa {
+  background-image: url('../img/napa.jpg');
+}
+#sonoma {
+  background-image: url('../img/sonoma.jpg');
+}
+#sanfran2 {
+  background-image: url('../img/san-francisco-2.jpg');
 }
